@@ -1,0 +1,45 @@
+## to make a file working with GIT
+
+git init
+
+## Login
+git config --global user.name 'Abderraheem'
+git config --global user.email 'rheem.turjman@gmail.com'
+
+## add file to staging mode
+git add index.html
+
+## show the staus
+git status
+
+## remove file from the status
+git rm --cached index.html
+
+
+## remove all file from the status
+git reset
+
+## creating brach
+git branch rheem
+
+## login to branch
+git checkout rheem
+
+## show who is branching
+git branch
+
+## merging the configuration with master
+git merge rheem 
+
+## show difference
+git diff
+
+## commands with remote repositery
+git push link      #upload
+git pull           #update
+git clone link     #copy
+
+
+
+
+
