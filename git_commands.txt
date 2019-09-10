@@ -9,6 +9,16 @@ git config --global user.email 'rheem.turjman@gmail.com'
 ## add file to staging mode
 git add index.html
 
+## commit
+git commit -m 'comment'
+
+## ignore files
+git .gitignore   # file will be created and wright the names of the files the 
+want to be ignored when make push
+
+## to stop tracking 
+rm -rf .git
+
 ## show the staus
 git status
 
